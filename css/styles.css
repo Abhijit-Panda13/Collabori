@@ -47,7 +47,7 @@ img{
   background-color: #222831;
   display: inline-block;
   margin-top: 182px;
-  height: 70%;
+  height: 100%;
   width: 50%;
   position: absolute;
   right: 0;
@@ -55,7 +55,7 @@ img{
 
 }
 .Music-photo{
-  height: 500px;
+  height: 100%;
   margin: 0;
 }
 
