@@ -47,15 +47,15 @@ img{
   background-color: #222831;
   display: inline-block;
   margin-top: 182px;
-  height: 500px;
-  width: 800px;
+  height: 70%;
+  width: 50%;
   position: absolute;
   right: 0;
   text-align: center;
 
 }
 .Music-photo{
-  height: 90%;
+  height: 500px;
   margin: 0;
 }
 
@@ -76,11 +76,12 @@ img{
 }
 
 .Site{
-  width: 700px;
-  height: 700px;
+  width: 50%;
+  height: 70%;
   text-align: center;
   position: relative;
   top: 300px;
+  z-index: -1;
 }
 
 .Site-heading{
