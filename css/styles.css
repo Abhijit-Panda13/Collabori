@@ -3,7 +3,7 @@ body{
   background-color: #DBE2EF;
   margin-top: 0;
   margin-left: 0;
-  margin-right: 0;
+  margin-right: 100;
   height: 100%;
 }
 
@@ -18,17 +18,20 @@ img{
   margin-right: 30px;
 }
 
+
 .First-Look{
   height: 100%;
   width: 100%;
 }
 .heading{
   background-color: #222831;
-  color: white;
-  padding-top: 50px;
-  margin-bottom: 50px;
+  padding : 20px 100px 20px 100px;
+  /* padding-top: 20px; */
+  margin-bottom: 0;
+  /* padding-bottom: 20px; */
+  /* padding-right: 100px; */
   position: fixed;
-  padding-left: 100px;
+  /* padding-left: 100px; */
   right: 0;
   left: 0;
   z-index: 1;
@@ -51,8 +54,8 @@ img{
 .Images{
   background-color: #222831;
   display: inline-block;
-  margin-top: 182px;
-  height: 75%;
+  margin-top: 163px;
+  height: 550px;
   width: 50%;
   position: absolute;
   right: 0;
@@ -105,8 +108,9 @@ img{
 
 .Content{
   position: relative;
-  top: 500px;
-  padding: 20;
+  top: 477px;
+  padding: 30px;
+
 }
 
 .Content-Heading{
@@ -121,7 +125,7 @@ img{
 ol{
   width: 80%;
   font-size: 1.5625rem;
-  background-color: #EEEEEE;
+
   padding-top: 50px;
   margin-left: 140px;
   font-family: 'Nanum Myeongjo', serif;
@@ -129,5 +133,28 @@ ol{
 
 .Music-Head{
   font-size: 1.875rem;
+  text-decoration: none;
+  font-family: 'Andada Pro', serif;
+  color: #916BBF;
+}
+.Music-Head:hover{
+  color: #091353;
+}
+
+.link{
+  display: block;
+  padding: 0.5rem 0.5rem;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  color: #E7E7E7;
+}
+
+.link:hover{
+  color: #8E05C2;
+}
+
+.menu{
+
+  font-size: 1.15rem;
 
 }
